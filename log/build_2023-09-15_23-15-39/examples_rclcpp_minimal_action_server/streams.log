@@ -1,0 +1,29 @@
+[0.114s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[2.484s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[7.312s] [ 50%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[7.703s] [ 50%] Built target action_server_member_functions
+[7.735s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[13.217s] [100%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[13.410s] [100%] Built target action_server_not_composable
+[13.422s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server -- -j16 -l16
+[13.451s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server
+[13.458s] -- Install configuration: ""
+[13.459s] -- Execute custom install script
+[13.460s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[13.468s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[13.477s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[13.486s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[13.494s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[13.502s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[13.511s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[13.519s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[13.527s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[13.538s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[13.547s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[13.555s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[13.564s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[13.576s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[13.588s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[13.599s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[13.608s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[13.620s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_action_server

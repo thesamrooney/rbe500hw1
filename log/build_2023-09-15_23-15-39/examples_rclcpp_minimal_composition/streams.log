@@ -1,0 +1,40 @@
+[0.109s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[2.475s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[8.137s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[18.142s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[18.707s] [ 33%] Built target composition_nodes
+[18.734s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[21.318s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[21.591s] [ 55%] Built target composition_publisher
+[21.633s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[24.233s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[24.493s] [ 77%] Built target composition_composed
+[24.515s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[27.165s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[27.442s] [100%] Built target composition_subscriber
+[27.452s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[27.500s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition
+[27.510s] -- Install configuration: ""
+[27.514s] -- Execute custom install script
+[27.514s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[27.523s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[27.530s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[27.539s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[27.546s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[27.553s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[27.560s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[27.570s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[27.580s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[27.588s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[27.595s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[27.603s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[27.611s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[27.619s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[27.627s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[27.636s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[27.643s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[27.652s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[27.660s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[27.668s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[27.676s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[27.686s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition

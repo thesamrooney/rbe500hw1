@@ -1,0 +1,70 @@
+[0.109s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set -- -j16 -l16
+[6.909s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[8.407s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[8.812s] [  8%] Built target talker
+[8.836s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[19.195s] [ 16%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[19.689s] [ 16%] Built target wait_set_topics_with_different_rates
+[19.711s] [ 20%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[27.219s] [ 25%] [32m[1mLinking CXX executable executor_random_order[0m
+[27.700s] [ 25%] Built target executor_random_order
+[27.725s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[35.417s] [ 33%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[35.926s] [ 33%] Built target wait_set_random_order
+[35.946s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[35.946s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[35.947s] [ 50%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[35.947s] [ 50%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[35.948s] [ 54%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[35.949s] [ 58%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[35.951s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[40.219s] [ 66%] [32m[1mLinking CXX executable wait_set_talker[0m
+[40.379s] [ 66%] Built target wait_set_talker
+[40.805s] [ 70%] [32m[1mLinking CXX executable wait_set_listener[0m
+[40.972s] [ 70%] Built target wait_set_listener
+[46.051s] [ 75%] [32m[1mLinking CXX executable static_wait_set[0m
+[46.642s] [ 79%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[46.702s] [ 79%] Built target static_wait_set
+[47.199s] [ 83%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[47.258s] [ 83%] Built target wait_set_topics_and_timer
+[47.838s] [ 87%] [32m[1mLinking CXX executable wait_set[0m
+[47.867s] [ 87%] Built target thread_safe_wait_set
+[48.309s] [ 91%] [32m[1mLinking CXX shared library liblistener.so[0m
+[48.463s] [ 91%] Built target wait_set
+[48.887s] [ 91%] Built target listener
+[48.907s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[52.280s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[52.666s] [100%] Built target wait_set_composed
+[53.176s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set -- -j16 -l16
+[53.225s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set
+[53.231s] -- Install configuration: ""
+[53.233s] -- Execute custom install script
+[53.233s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[53.241s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[53.248s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/libtalker.so
+[53.254s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/liblistener.so
+[53.262s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[53.268s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[53.276s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[53.282s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[53.288s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[53.301s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[53.307s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[53.320s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[53.327s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[53.340s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[53.353s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[53.359s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[53.371s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[53.384s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[53.391s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[53.404s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[53.417s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[53.424s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[53.430s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[53.436s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[53.449s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[53.461s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[53.467s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[53.473s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[53.484s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_wait_set

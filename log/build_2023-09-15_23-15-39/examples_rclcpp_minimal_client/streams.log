@@ -1,0 +1,25 @@
+[0.111s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client -- -j16 -l16
+[2.479s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[6.682s] [100%] [32m[1mLinking CXX executable client_main[0m
+[6.935s] [100%] Built target client_main
+[6.951s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client -- -j16 -l16
+[6.981s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client
+[7.597s] -- Install configuration: ""
+[7.597s] -- Execute custom install script
+[7.597s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[7.597s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[7.597s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[7.597s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[7.598s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[7.599s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[7.599s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[7.782s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_client

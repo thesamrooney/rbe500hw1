@@ -1,0 +1,68 @@
+[0.108s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[2.460s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[14.090s] [  8%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[14.585s] [  8%] Built target subscriber_lambda
+[14.605s] [ 12%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[17.622s] [ 16%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[17.759s] [ 16%] Built target time_triggered_wait_set_subscriber
+[17.786s] [ 20%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[20.738s] [ 25%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[20.879s] [ 25%] Built target static_wait_set_subscriber
+[20.905s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[23.756s] [ 33%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[23.898s] [ 33%] Built target wait_set_subscriber
+[23.920s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[31.494s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[31.494s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[41.898s] [ 50%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[42.950s] [ 50%] Built target wait_set_subscriber_library
+[42.973s] [ 54%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[42.975s] [ 58%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[42.978s] [ 66%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[42.978s] [ 66%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[42.978s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[42.978s] [ 75%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[52.001s] [ 79%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[52.278s] [ 83%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[52.332s] [ 87%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[52.508s] [ 87%] Built target subscriber_member_function_with_topic_statistics
+[52.813s] [ 87%] Built target subscriber_not_composable
+[52.822s] [ 91%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[52.837s] [ 91%] Built target subscriber_member_function
+[53.200s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[53.202s] [ 95%] Built target subscriber_content_filtering
+[53.549s] [ 95%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[53.769s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[54.159s] [100%] Built target subscriber_member_function_with_type_adapter
+[54.244s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[54.324s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber
+[54.335s] -- Install configuration: ""
+[54.336s] -- Execute custom install script
+[54.337s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[54.353s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[54.367s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[54.381s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[54.395s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[54.408s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[54.422s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[54.431s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[54.437s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[54.450s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[54.458s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[54.471s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[54.478s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[54.491s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[54.497s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[54.511s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[54.524s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[54.537s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[54.550s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[54.558s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[54.564s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[54.578s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[54.592s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[54.605s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[54.613s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[54.619s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[54.632s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[54.646s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber

@@ -1,0 +1,23 @@
+[2.464s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher/prefix_override:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher/build --no-deps install_data
+[2.744s] running develop
+[2.744s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.744s]   warnings.warn(
+[2.746s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.746s]   warnings.warn(
+[2.909s] running egg_info
+[2.909s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[2.910s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[2.910s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[2.910s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[2.911s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[2.912s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.913s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.914s] running build_ext
+[2.915s] Creating /home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[2.916s] Installing publisher_local_function script to /home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.917s] Installing publisher_member_function script to /home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.917s] Installing publisher_old_school script to /home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.917s] 
+[2.917s] Installed /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher
+[2.917s] running install_data
+[3.010s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher/prefix_override:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_publisher/build --no-deps install_data

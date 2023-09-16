@@ -1,0 +1,1 @@
+/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_publisher/ament_cmake_core/examples_rclcpp_minimal_publisherConfig-version.cmake

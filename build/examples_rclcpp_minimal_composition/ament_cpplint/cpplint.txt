@@ -1,0 +1,28 @@
+-- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+
+Using '--root=/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/include' argument
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+
+Using '--root=/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src' argument
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+
+Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'

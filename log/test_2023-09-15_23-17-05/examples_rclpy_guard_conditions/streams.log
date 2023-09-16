@@ -1,0 +1,22 @@
+[0.710s] Invoking command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.059s] [1m============================= test session starts ==============================[0m
+[1.059s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.064s] cachedir: /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/.pytest_cache
+[1.064s] rootdir: /home/srooney/Documents/rbe500/hw1/src/examples/rclpy, configfile: pytest.ini
+[1.065s] plugins: ament-copyright-0.12.7, launch-testing-ros-0.19.5, ament-flake8-0.12.7, ament-lint-0.12.7, ament-pep257-0.12.7, launch-testing-1.0.4, ament-xmllint-0.12.7, colcon-core-0.12.1, cov-3.0.0
+[1.173s] [1mcollecting ... [0m[1m
+[1.174s] collected 3 items                                                              [0m
+[1.174s] 
+[1.348s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.554s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.601s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.601s] 
+[1.601s] [33m=============================== warnings summary ===============================[0m
+[1.602s] guard_conditions/test/test_flake8.py::test_flake8
+[1.602s] guard_conditions/test/test_flake8.py::test_flake8
+[1.602s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.602s] 
+[1.602s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.603s] - generated xml file: /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/pytest.xml -
+[1.603s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.54s[0m[33m =========================[0m
+[1.807s] Invoked command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_guard_conditions:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

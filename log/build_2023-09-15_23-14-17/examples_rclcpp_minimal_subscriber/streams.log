@@ -1,0 +1,62 @@
+[0.104s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber
+[1.900s] -- The C compiler identification is GNU 11.4.0
+[1.900s] -- The CXX compiler identification is GNU 11.4.0
+[1.900s] -- Detecting C compiler ABI info
+[1.900s] -- Detecting C compiler ABI info - done
+[1.900s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.900s] -- Detecting C compile features
+[1.900s] -- Detecting C compile features - done
+[1.901s] -- Detecting CXX compiler ABI info
+[1.901s] -- Detecting CXX compiler ABI info - done
+[1.901s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.901s] -- Detecting CXX compile features
+[1.901s] -- Detecting CXX compile features - done
+[1.901s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.901s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.902s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.902s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.902s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.902s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.902s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.917s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.917s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.917s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.918s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.918s] -- Looking for pthread.h
+[1.918s] -- Looking for pthread.h - found
+[1.918s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.923s] -- Found Threads: TRUE  
+[2.257s] -- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.441s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.592s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.594s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.597s] -- Configured cppcheck include dirs: 
+[2.597s] -- Configured cppcheck exclude dirs and/or files: 
+[2.598s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.598s] -- Configured cpplint exclude dirs and/or files: 
+[2.599s] -- Added test 'lint_cmake' to check CMake code style
+[2.601s] -- Added test 'uncrustify' to check C / C++ code style
+[2.601s] -- Configured uncrustify additional arguments: 
+[2.602s] -- Added test 'xmllint' to check XML markup files
+[2.605s] -- Configuring done
+[2.682s] -- Generating done
+[2.693s] -- Build files have been written to: /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber
+[2.729s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_subscriber
+[2.741s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[3.612s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[3.613s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[3.613s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[3.613s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[3.613s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[3.613s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[3.613s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[3.613s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[3.613s] [ 37%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[3.614s] [ 41%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[3.614s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[3.614s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[3.614s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m

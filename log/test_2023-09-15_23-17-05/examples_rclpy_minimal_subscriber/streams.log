@@ -1,0 +1,22 @@
+[0.386s] Invoking command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclpy/topics/minimal_subscriber': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_subscriber:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.935s] [1m============================= test session starts ==============================[0m
+[0.935s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.936s] cachedir: /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/.pytest_cache
+[0.936s] rootdir: /home/srooney/Documents/rbe500/hw1/src/examples/rclpy, configfile: pytest.ini
+[0.936s] plugins: ament-copyright-0.12.7, launch-testing-ros-0.19.5, ament-flake8-0.12.7, ament-lint-0.12.7, ament-pep257-0.12.7, launch-testing-1.0.4, ament-xmllint-0.12.7, colcon-core-0.12.1, cov-3.0.0
+[0.936s] [1mcollecting ... [0m[1m
+[0.936s] collected 3 items                                                              [0m
+[0.936s] 
+[1.135s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.250s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.297s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.297s] 
+[1.298s] [33m=============================== warnings summary ===============================[0m
+[1.298s] topics/minimal_subscriber/test/test_flake8.py::test_flake8
+[1.298s] topics/minimal_subscriber/test/test_flake8.py::test_flake8
+[1.298s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.298s] 
+[1.299s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.299s] - generated xml file: /home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/pytest.xml -
+[1.299s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.54s[0m[33m =========================[0m
+[1.390s] Invoked command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclpy/topics/minimal_subscriber' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_subscriber:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/pytest.xml --junit-prefix=examples_rclpy_minimal_subscriber -o cache_dir=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber/.pytest_cache PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/examples_rclpy_minimal_subscriber:/home/srooney/Documents/rbe500/hw1/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

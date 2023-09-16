@@ -1,0 +1,109 @@
+[1.427s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[3.527s] UpdateCTestConfiguration  from :/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[3.528s] Parse Config file:/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[3.528s]    Site: srooney-lt4
+[3.528s]    Build name: (empty)
+[3.528s]  Add coverage exclude regular expressions.
+[3.529s] Create new tag: 20230916-0317 - Experimental
+[3.529s] UpdateCTestConfiguration  from :/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[3.529s] Parse Config file:/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/CTestConfiguration.ini
+[3.529s] Test project /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer
+[3.529s] Constructing a list of tests
+[3.529s] Done constructing a list of tests
+[3.529s] Updating test list for fixtures
+[3.530s] Added 0 tests to meet fixture requirements
+[3.530s] Checking test dependency graph...
+[3.530s] Checking test dependency graph end
+[3.530s] test 1
+[3.530s]     Start 1: copyright
+[3.530s] 
+[3.530s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml"
+[3.530s] 1: Test timeout computed to be: 200
+[3.531s] 1: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.531s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml
+[3.532s] 1: No problems found, checked 2 files
+[3.532s] 1: -- run_test.py: return code 0
+[3.532s] 1: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/copyright.xunit.xml'
+[3.532s] 1/6 Test #1: copyright ........................   Passed    0.49 sec
+[3.532s] test 2
+[3.532s]     Start 2: cppcheck
+[3.532s] 
+[3.532s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml"
+[3.532s] 2: Test timeout computed to be: 300
+[3.533s] 2: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.533s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml
+[3.533s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[3.533s] 2: -- run_test.py: return code 0
+[3.533s] 2: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cppcheck.xunit.xml'
+[3.533s] 2/6 Test #2: cppcheck .........................   Passed    0.35 sec
+[3.534s] test 3
+[3.534s]     Start 3: cpplint
+[3.534s] 
+[3.534s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml"
+[3.534s] 3: Test timeout computed to be: 120
+[3.535s] 3: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.535s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml
+[3.535s] 3: Using '--root=..' argument
+[3.535s] 3: 
+[3.535s] 3: Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer/lambda.cpp
+[3.535s] 3: 
+[3.535s] 3: Done processing /home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer/member_function.cpp
+[3.535s] 3: 
+[3.536s] 3: No problems found
+[3.536s] 3: -- run_test.py: return code 0
+[3.536s] 3: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/cpplint.xunit.xml'
+[3.536s] 3/6 Test #3: cpplint ..........................   Passed    0.40 sec
+[3.536s] test 4
+[3.536s]     Start 4: lint_cmake
+[3.536s] 
+[3.536s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml"
+[3.537s] 4: Test timeout computed to be: 60
+[3.537s] 4: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.537s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml
+[3.537s] 4: 
+[3.537s] 4: No problems found
+[3.537s] 4: -- run_test.py: return code 0
+[3.537s] 4: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/lint_cmake.xunit.xml'
+[3.538s] 4/6 Test #4: lint_cmake .......................   Passed    0.32 sec
+[3.538s] test 5
+[3.538s]     Start 5: uncrustify
+[3.538s] 
+[3.538s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml"
+[3.538s] 5: Test timeout computed to be: 60
+[3.538s] 5: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.539s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml
+[3.539s] 5: No code style divergence in file 'lambda.cpp'
+[3.539s] 5: 
+[3.539s] 5: No code style divergence in file 'member_function.cpp'
+[3.539s] 5: 
+[3.539s] 5: No problems found
+[3.539s] 5: -- run_test.py: return code 0
+[3.539s] 5: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/uncrustify.xunit.xml'
+[3.540s] 5/6 Test #5: uncrustify .......................   Passed    0.32 sec
+[3.540s] test 6
+[3.540s]     Start 6: xmllint
+[3.540s] 
+[3.540s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_timer" "--output-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml"
+[3.541s] 6: Test timeout computed to be: 60
+[3.544s] 6: -- run_test.py: invoking following command in '/home/srooney/Documents/rbe500/hw1/src/examples/rclcpp/timers/minimal_timer':
+[3.545s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml
+[4.346s] 6: File 'package.xml' is valid
+[4.347s] 6: 
+[4.347s] 6: No problems found
+[4.382s] 6: -- run_test.py: return code 0
+[4.383s] 6: -- run_test.py: verify result file '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml'
+[4.415s] 6/6 Test #6: xmllint ..........................   Passed    1.09 sec
+[4.416s] 
+[4.416s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.416s] 
+[4.416s] Label Time Summary:
+[4.416s] copyright     =   0.49 sec*proc (1 test)
+[4.416s] cppcheck      =   0.35 sec*proc (1 test)
+[4.416s] cpplint       =   0.40 sec*proc (1 test)
+[4.417s] lint_cmake    =   0.32 sec*proc (1 test)
+[4.417s] linter        =   2.97 sec*proc (6 tests)
+[4.417s] uncrustify    =   0.32 sec*proc (1 test)
+[4.417s] xmllint       =   1.09 sec*proc (1 test)
+[4.417s] 
+[4.417s] Total Test time (real) =   2.97 sec
+[4.517s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer' returned '0': AMENT_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

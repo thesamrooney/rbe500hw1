@@ -1,0 +1,27 @@
+[0.113s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[1.554s] [35m[1mConsolidate compiler generated dependencies of target timer_lambda[0m
+[1.555s] [35m[1mConsolidate compiler generated dependencies of target timer_member_function[0m
+[1.555s] [ 50%] Built target timer_lambda
+[1.556s] [100%] Built target timer_member_function
+[1.587s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[1.725s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer
+[1.740s] -- Install configuration: ""
+[1.740s] -- Execute custom install script
+[1.740s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[1.740s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[1.740s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[1.740s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[1.741s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[1.742s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[1.742s] -- Symlinking: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[1.746s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[1.746s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[1.746s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[1.747s] -- Up-to-date symlink: /home/srooney/Documents/rbe500/hw1/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[1.890s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/srooney/Documents/rbe500/hw1/build/examples_rclcpp_minimal_timer

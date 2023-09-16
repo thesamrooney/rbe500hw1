@@ -1,0 +1,27 @@
+[1.639s] Invoking command in '/home/srooney/Documents/rbe500/hw1/build/launch_testing_examples': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/launch_testing_examples/prefix_override:/home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/srooney/Documents/rbe500/hw1/build/launch_testing_examples/build --no-deps install_data
+[2.076s] running develop
+[2.077s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.077s]   warnings.warn(
+[2.079s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.080s]   warnings.warn(
+[2.329s] running egg_info
+[2.329s] creating launch_testing_examples.egg-info
+[2.329s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.329s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.329s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.329s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.329s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.329s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.332s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.336s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.336s] running build_ext
+[2.336s] Creating /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.337s] 
+[2.337s] Installed /home/srooney/Documents/rbe500/hw1/build/launch_testing_examples
+[2.337s] running install_data
+[2.338s] creating /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/share/ament_index
+[2.338s] creating /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/share/ament_index/resource_index
+[2.338s] creating /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.338s] copying resource/launch_testing_examples -> /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.338s] copying package.xml -> /home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/share/launch_testing_examples
+[2.423s] Invoked command in '/home/srooney/Documents/rbe500/hw1/build/launch_testing_examples' returned '0': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/launch_testing_examples/prefix_override:/home/srooney/Documents/rbe500/hw1/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/srooney/Documents/rbe500/hw1/build/launch_testing_examples/build --no-deps install_data
