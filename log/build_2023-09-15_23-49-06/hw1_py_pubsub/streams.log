@@ -1,0 +1,32 @@
+[0.833s] Invoking command in '/home/srooney/Documents/rbe500/hw1/src/hw1_py_pubsub': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/prefix_override:/home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1_py_pubsub build --build-base /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/build install --record /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/install.log --single-version-externally-managed
+[1.142s] running egg_info
+[1.143s] writing ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/top_level.txt
+[1.146s] reading manifest file '../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info/SOURCES.txt'
+[1.148s] running build
+[1.148s] running build_py
+[1.148s] copying hw1_py_pubsub/rooney_subscriber.py -> /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/build/lib/hw1_py_pubsub
+[1.149s] running install
+[1.149s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.149s] running install_lib
+[1.150s] copying /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/build/lib/hw1_py_pubsub/rooney_subscriber.py -> /home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages/hw1_py_pubsub
+[1.151s] byte-compiling /home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages/hw1_py_pubsub/rooney_subscriber.py to rooney_subscriber.cpython-310.pyc
+[1.151s]   File "/home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages/hw1_py_pubsub/rooney_subscriber.py", line 26
+[1.151s]     self.get_logger().info("I recieved %s. It is an %s number." % (num evenodd))
+[1.151s]                                                                    ^^^^^^^^^^^
+[1.152s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.152s] 
+[1.152s] running install_data
+[1.152s] running install_egg_info
+[1.154s] removing '/home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages/hw1_py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[1.155s] Copying ../../build/hw1_py_pubsub/hw1_py_pubsub.egg-info to /home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages/hw1_py_pubsub-0.0.0-py3.10.egg-info
+[1.156s] running install_scripts
+[1.183s] Installing listener script to /home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/hw1_py_pubsub
+[1.184s] Installing talker script to /home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/hw1_py_pubsub
+[1.184s] writing list of installed files to '/home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/install.log'
+[1.229s] Invoked command in '/home/srooney/Documents/rbe500/hw1/src/hw1_py_pubsub' returned '0': PYTHONPATH=/home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/prefix_override:/home/srooney/Documents/rbe500/hw1/install/hw1_py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hw1_py_pubsub build --build-base /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/build install --record /home/srooney/Documents/rbe500/hw1/build/hw1_py_pubsub/install.log --single-version-externally-managed

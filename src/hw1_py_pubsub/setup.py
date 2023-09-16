@@ -14,12 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='srooney',
-    maintainer_email='the.sam.rooney@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='srooney@wpi.edu',
+    description='Sam Rooney - RBE500 HW1',
+    license='N/A',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "talker = hw1_py_pubsub.rooney_publisher:main",
+            "listener = hw1_py_pubsub.rooney_subscriber:main",
         ],
     },
 )

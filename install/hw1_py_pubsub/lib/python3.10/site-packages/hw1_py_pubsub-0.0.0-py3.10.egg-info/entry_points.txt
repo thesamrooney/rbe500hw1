@@ -1,0 +1,4 @@
+[console_scripts]
+listener = hw1_py_pubsub.rooney_subscriber:main
+talker = hw1_py_pubsub.rooney_publisher:main
+
